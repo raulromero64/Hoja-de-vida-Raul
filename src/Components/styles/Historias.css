@@ -1,0 +1,15 @@
+.container__general__historias {
+  width: 375px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .container__general__historias {
+    width: 768px;
+    border: 1px solid red;
+  }
+}

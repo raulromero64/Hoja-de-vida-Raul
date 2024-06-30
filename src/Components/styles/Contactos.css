@@ -1,0 +1,41 @@
+.container__Tco {
+  margin: 0 auto;
+  width: 375px;
+  height: auto;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.name__contacto {
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.status__contacto {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.texto_p_contactos {
+  margin-top: 20px;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 1440px) {
+  .container__Tco {
+    padding: 250px 20px;
+  }
+
+  .boton_enlace {
+    width: 150px;
+    padding: 8px 30px;
+  }
+}

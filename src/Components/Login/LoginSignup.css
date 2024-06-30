@@ -1,0 +1,138 @@
+.title__texto {
+  color: var(--Almost-Blue);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.container__Login {
+  background-color: var(--Almost-White);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.text__Login {
+  color: var(--Almost-Blue);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.underline__Login {
+  width: 50%;
+  height: 6px;
+  background-color: var(--Almost-Blue);
+  border-radius: 9px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.inputs__Login {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 5px;
+}
+
+.input__Login {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 330px;
+  height: 60px;
+  background-color: rgb(218, 219, 231);
+  border-radius: 6px;
+}
+
+.input__Login img {
+  margin: 0 20px;
+}
+
+input {
+  height: 50px;
+  width: 265px;
+  background-color: rgb(232, 233, 243);
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 19px;
+}
+
+.forgot__password {
+  margin-left: -90px;
+  margin-top: 10px;
+  color: #797979;
+  font: 18px;
+}
+
+.submit__Container__Login {
+  display: flex;
+  gap: 3px;
+  margin: 3ch auto;
+  padding: 0 20px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 30px;
+  color: #fff;
+  background-color: var(--Almost-Blue);
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .title__texto {
+    font-size: 3rem;
+  }
+
+  .container__Login {
+    width: 600px;
+  }
+
+  .input__Login {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 450px;
+    height: 8dvi;
+    border-radius: 6px;
+  }
+
+  .input__Login img {
+    margin: 0 30px;
+  }
+
+  input {
+    height: 50px;
+    width: 350px;
+    border-radius: 6px;
+    font-size: 19px;
+  }
+
+  .forgot__password {
+    margin-left: -200px;
+    margin-top: 10px;
+  }
+
+  .submit__Container__Login {
+    display: flex;
+    gap: 30px;
+    margin: 6px auto;
+  }
+
+  .submit {
+    width: 150px;
+    height: 40px;
+  }
+}

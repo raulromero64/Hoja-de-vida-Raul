@@ -1,0 +1,10 @@
+.container__general__historias {
+  margin: 0;
+  height: 100vh;
+  background-color: var(--Almost-Blue-M);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
