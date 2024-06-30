@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <Link to="/" className="nav__title">
-        Raul-hrh
+        Raul-H2
       </Link>
       <ul className={active}>
         <li>

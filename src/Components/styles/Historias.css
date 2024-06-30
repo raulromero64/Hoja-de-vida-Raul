@@ -10,6 +10,5 @@
 @media (min-width: 768px) {
   .container__general__historias {
     width: 768px;
-    border: 1px solid red;
   }
 }
