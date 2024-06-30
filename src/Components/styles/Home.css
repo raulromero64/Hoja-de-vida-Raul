@@ -1,10 +1,11 @@
 .container__general {
-  width: 375px;
+  width: 355px;
   height: auto;
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 20px auto;
+  border: 1px solid red;
 }
 
 .raulBg {

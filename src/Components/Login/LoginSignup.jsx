@@ -33,7 +33,7 @@ const LoginSignup = () => {
         </div>
       </div>
 
-      {action === "Sing Up" ? (
+      {action === "" ? (
         <div></div>
       ) : (
         <div className="forgot__password">
@@ -51,9 +51,9 @@ const LoginSignup = () => {
           Sing Up
         </div>
         <div
-          className={action === "Singn Up" ? "submit gray" : "submit"}
+          className={action === "" ? "submit gray" : "submit"}
           onClick={() => {
-            setaction("Login");
+            setAction("Login");
           }}
         >
           Login
